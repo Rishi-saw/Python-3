@@ -5,10 +5,10 @@ num2=0
 c=0
 ans=0
 
-print("Welcome")
+print("Welcome to our calculator")
 num1=input("Enter First Number\n")
 num2=input("Enter Second Number\n")
-c=input("Enter \n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n\nSo Your Coice is\n")
+c=input("Enter \n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n\nSo Your Choice is\n")
 
 if num1==0 and num2==0 or c==0 :
     print("Values Not Entered Properly")
@@ -22,4 +22,4 @@ else :
     else :
         ans=int(num1)/int(num2)
 
-print("So the Answer after chosen operation is : ",ans)
+print("So the Answer of your operation is : ",ans)
